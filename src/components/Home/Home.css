@@ -1,0 +1,17 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+.ant-layout-header {
+    height: 35px;
+    line-height: 35px;
+    background-color: #f58287;
+    padding:0 20px;
+}
+.ant-menu {
+    background-color: transparent;
+}
+.ant-menu-horizontal {
+    border: 0;
+}
