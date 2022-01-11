@@ -38,5 +38,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "homepage":"https://lee1999ting.github.io/tomato",
+  "predeploy": "npm run build", 
+  "deploy": "gh-pages -d build" 
 }
